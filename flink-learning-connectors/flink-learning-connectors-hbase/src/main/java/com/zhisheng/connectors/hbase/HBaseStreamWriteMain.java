@@ -104,9 +104,9 @@ public class HBaseStreamWriteMain {
 
         @Override
         public void writeRecord(String record) throws IOException {
-            Put put = new Put(Bytes.toBytes(taskNumber + rowNumber));
+            Put put = new Put(Bytes.toBytes(taskNumber + rowNumber));  //rowkey
             put.addColumn(Bytes.toBytes(ExecutionEnvUtil.PARAMETER_TOOL.get(HBASE_COLUMN_NAME)), Bytes.toBytes("zhisheng"),
-                    Bytes.toBytes(String.valueOf(rowNumber)));
+                    Bytes.toBytes(record));
             rowNumber++;
             table.put(put);
         }

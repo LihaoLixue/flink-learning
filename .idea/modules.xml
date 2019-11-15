@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-learning.iml" filepath="$PROJECT_DIR$/flink-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-cep/flink-learning-cep.iml" filepath="$PROJECT_DIR$/flink-learning-cep/flink-learning-cep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-common/flink-learning-common.iml" filepath="$PROJECT_DIR$/flink-learning-common/flink-learning-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/flink-learning-connectors-activemq.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/flink-learning-connectors-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/flink-learning-connectors-akka.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/flink-learning-connectors-akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-cassandra/flink-learning-connectors-cassandra.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-cassandra/flink-learning-connectors-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/flink-learning-connectors-es6.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/flink-learning-connectors-es6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-flume/flink-learning-connectors-flume.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-flume/flink-learning-connectors-flume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/flink-learning-connectors-hbase.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/flink-learning-connectors-hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hdfs/flink-learning-connectors-hdfs.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hdfs/flink-learning-connectors-hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-influxdb/flink-learning-connectors-influxdb.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-influxdb/flink-learning-connectors-influxdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/flink-learning-connectors-kafka.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/flink-learning-connectors-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/flink-learning-connectors-kudu.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/flink-learning-connectors-kudu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/flink-learning-connectors-mysql.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/flink-learning-connectors-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-netty/flink-learning-connectors-netty.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-netty/flink-learning-connectors-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rabbitmq/flink-learning-connectors-rabbitmq.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rabbitmq/flink-learning-connectors-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-redis/flink-learning-connectors-redis.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-redis/flink-learning-connectors-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rocketmq/flink-learning-connectors-rocketmq.iml" filepath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rocketmq/flink-learning-connectors-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-data-sinks/flink-learning-data-sinks.iml" filepath="$PROJECT_DIR$/flink-learning-data-sinks/flink-learning-data-sinks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-data-sources/flink-learning-data-sources.iml" filepath="$PROJECT_DIR$/flink-learning-data-sources/flink-learning-data-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-examples/flink-learning-examples.iml" filepath="$PROJECT_DIR$/flink-learning-examples/flink-learning-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/flink-learning-monitor-alert.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/flink-learning-monitor-alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/flink-learning-monitor-collector.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/flink-learning-monitor-collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/flink-learning-monitor-common.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/flink-learning-monitor-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/flink-learning-monitor-dashboard.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/flink-learning-monitor-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/flink-learning-monitor-storage.iml" filepath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/flink-learning-monitor-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-sql/flink-learning-sql.iml" filepath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-state/flink-learning-state.iml" filepath="$PROJECT_DIR$/flink-learning-state/flink-learning-state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-template/flink-learning-template.iml" filepath="$PROJECT_DIR$/flink-learning-template/flink-learning-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning-window/flink-learning-window.iml" filepath="$PROJECT_DIR$/flink-learning-window/flink-learning-window.iml" />
+    </modules>
+  </component>
+</project>

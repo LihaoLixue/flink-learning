@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.omg.CORBA.NameValuePairHelper;
 
 /**
  * Desc: 规则
@@ -14,6 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 @Builder
 public class Rule {
 
@@ -67,4 +69,5 @@ public class Rule {
      * TODO: more notice ways
      */
     private String webhook;
+
 }

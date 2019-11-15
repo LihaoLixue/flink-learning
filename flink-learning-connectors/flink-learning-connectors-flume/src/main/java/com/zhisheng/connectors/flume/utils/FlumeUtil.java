@@ -3,6 +3,8 @@ package com.zhisheng.connectors.flume.utils;
 import org.apache.flume.api.RpcClient;
 import org.apache.flume.api.RpcClientConfigurationConstants;
 import org.apache.flume.api.RpcClientFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
@@ -13,6 +15,7 @@ import java.util.Properties;
  * 微信公众号：zhisheng
  */
 public class FlumeUtil {
+
     private static final String CLIENT_TYPE_KEY = "client.type";
     private static final String CLIENT_TYPE_DEFAULT_FAILOVER = "default_failover";
     private static final String CLIENT_TYPE_DEFAULT_LOADBALANCING = "default_loadbalance";

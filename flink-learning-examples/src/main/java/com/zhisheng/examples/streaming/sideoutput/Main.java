@@ -40,7 +40,7 @@ public class Main {
                 })
                 .process(new Tokenizer());
 
-//        tokenizer.getSideOutput(overFiveTag).print();   //将字符串长度大于 5 的打印出来
+        tokenizer.getSideOutput(overFiveTag).print();   //将字符串长度大于 5 的打印出来
 
 //        tokenizer.getSideOutput(equalFiveTag).print();  //将字符串长度等于 5 的打印出来
 

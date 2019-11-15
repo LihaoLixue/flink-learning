@@ -8,6 +8,8 @@ import org.apache.flume.Event;
 import org.apache.flume.EventDeliveryException;
 import org.apache.flume.api.RpcClient;
 import org.apache.flume.api.RpcClientConfigurationConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +23,7 @@ import java.util.List;
  */
 @Slf4j
 public class FlumeSink<IN> extends RichSinkFunction<IN> {
+    private static final Logger log = LoggerFactory.getLogger(FlumeSink.class);
     /**
      * 最大尝试次数
      */

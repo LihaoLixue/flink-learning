@@ -30,10 +30,10 @@ public class SourceFromMySQL extends RichSourceFunction<Student> {
     public void open(Configuration parameters) throws Exception {
         super.open(parameters);
         connection = MySQLUtil.getConnection("com.mysql.jdbc.Driver",
-                "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8",
+                "jdbc:mysql://10.3.7.234:3306/zabbix",
                 "root",
-                "root123456");
-        String sql = "select * from Student;";
+                "123456");
+        String sql = "select * from test;";
         ps = this.connection.prepareStatement(sql);
     }
 

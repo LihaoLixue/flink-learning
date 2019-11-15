@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-cep" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-cassandra" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-flume" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-influxdb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-data-sinks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-data-sources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-state" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-template" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-window" charset="UTF-8" />
+  </component>
+</project>

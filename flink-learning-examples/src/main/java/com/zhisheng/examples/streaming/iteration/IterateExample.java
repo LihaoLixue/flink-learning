@@ -41,8 +41,6 @@ public class IterateExample {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment().setBufferTimeout(1);
         env.getConfig().setGlobalJobParameters(params);
 
-
-
         IterativeStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> it = env.addSource(new RandomFibonacciSource())
                 .map(new InputMap())
                 .iterate(5000);

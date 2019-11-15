@@ -10,6 +10,8 @@ import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -29,6 +31,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 public class ScheduleMain {
+    private static final Logger log = LoggerFactory.getLogger(ScheduleMain.class);
 
     public static List<Rule> rules;
 

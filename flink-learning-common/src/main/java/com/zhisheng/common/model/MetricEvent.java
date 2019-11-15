@@ -37,4 +37,20 @@ public class MetricEvent {
 	 * Metric tags
 	 */
 	private Map<String, String> tags;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setTimestamp(Long timestamp) {
+		this.timestamp = timestamp;
+	}
+
+	public void setFields(Map<String, Object> fields) {
+		this.fields = fields;
+	}
+
+	public void setTags(Map<String, String> tags) {
+		this.tags = tags;
+	}
 }
