@@ -6,49 +6,74 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flink-learning-monitor-dashboard" />
-        <module name="flink-learning-monitor-common" />
-        <module name="flink-learning-connectors-hdfs" />
-        <module name="flink-learning-connectors-kudu" />
-        <module name="flink-learning-connectors-netty" />
-        <module name="flink-learning-template" />
-        <module name="flink-learning-data-sinks" />
-        <module name="flink-learning-connectors-kafka" />
-        <module name="flink-learning-monitor-collector" />
-        <module name="flink-learning-connectors-mysql" />
-        <module name="flink-learning-window" />
-        <module name="flink-learning-connectors-activemq" />
-        <module name="flink-learning-connectors-akka" />
-        <module name="flink-learning-connectors-redis" />
-        <module name="flink-learning-sql" />
-        <module name="flink-learning-state" />
-        <module name="flink-learning-monitor-storage" />
-        <module name="flink-learning-connectors-influxdb" />
-        <module name="flink-learning-connectors-rocketmq" />
         <module name="flink-learning-data-sources" />
-        <module name="flink-learning-examples" />
-        <module name="flink-learning-connectors-rabbitmq" />
-        <module name="flink-learning-cep" />
+        <module name="flink-learning-project-deduplication" />
+        <module name="flink-learning-connectors-redis" />
+        <module name="flink-learning-connectors-hdfs" />
+        <module name="flink-learning-connectors-es5" />
+        <module name="flink-learning-connector-clickhouse" />
+        <module name="flink-learning-libraries-machine-learning" />
+        <module name="flink-learning-connectors-es7" />
+        <module name="flink-learning-connectors-es6" />
+        <module name="flink-learning-monitor-collector" />
+        <module name="flink-learning-connectors-hbase" />
+        <module name="flink-learning-connectors-es2" />
+        <module name="flink-learning-connectors-mysql" />
+        <module name="flink-learning-connectors-netty" />
+        <module name="flink-learning-window" />
+        <module name="flink-learning-data-sinks" />
+        <module name="flink-learning-connectors-hive" />
+        <module name="flink-learning-sql-ago" />
+        <module name="flink-learning-sql-blink" />
+        <module name="flink-learning-monitor-common" />
         <module name="flink-learning-monitor-alert" />
+        <module name="flink-learning-libraries-cep" />
+        <module name="flink-learning-connectors-influxdb" />
+        <module name="flink-learning-connectors-activemq" />
+        <module name="flink-learning-connectors-kafka" />
+        <module name="flink-learning-connectors-rocketmq" />
+        <module name="flink-learning-connectors-rabbitmq" />
         <module name="flink-learning-common" />
         <module name="flink-learning-connectors-cassandra" />
-        <module name="flink-learning-connectors-es6" />
-        <module name="flink-learning-connectors-hbase" />
+        <module name="flink-learning-monitor-log" />
+        <module name="flink-learning-state" />
+        <module name="flink-learning-connectors-kudu" />
+        <module name="flink-learning-monitor-pvuv" />
+        <module name="flink-learning-monitor-dashboard" />
+        <module name="flink-learning-examples" />
+        <module name="flink-learning-libraries-state-processor-api" />
         <module name="flink-learning-connectors-flume" />
+        <module name="flink-learning-monitor-storage" />
+        <module name="flink-learning-connectors-akka" />
+        <module name="flink-learning-sql-common" />
+        <module name="flink-learning-core" />
+        <module name="flink-learning-project-common" />
+        <module name="flink-learning-template" />
+      </profile>
+      <profile name="Annotation profile for flink-learning" enabled="true">
+        <sourceOutputDir name="../../../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink-learning-libraries-gelly" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="flink-learning" target="1.8" />
       <module name="flink-learning-cep" target="1.8" />
       <module name="flink-learning-common" target="1.8" />
+      <module name="flink-learning-connector-clickhouse" target="1.8" />
       <module name="flink-learning-connectors" target="1.8" />
       <module name="flink-learning-connectors-activemq" target="1.8" />
       <module name="flink-learning-connectors-akka" target="1.8" />
       <module name="flink-learning-connectors-cassandra" target="1.8" />
+      <module name="flink-learning-connectors-es2" target="1.8" />
+      <module name="flink-learning-connectors-es5" target="1.8" />
       <module name="flink-learning-connectors-es6" target="1.8" />
+      <module name="flink-learning-connectors-es7" target="1.8" />
       <module name="flink-learning-connectors-flume" target="1.8" />
       <module name="flink-learning-connectors-hbase" target="1.8" />
       <module name="flink-learning-connectors-hdfs" target="1.8" />
+      <module name="flink-learning-connectors-hive" target="1.8" />
       <module name="flink-learning-connectors-influxdb" target="1.8" />
       <module name="flink-learning-connectors-kafka" target="1.8" />
       <module name="flink-learning-connectors-kudu" target="1.8" />
@@ -57,16 +82,30 @@
       <module name="flink-learning-connectors-rabbitmq" target="1.8" />
       <module name="flink-learning-connectors-redis" target="1.8" />
       <module name="flink-learning-connectors-rocketmq" target="1.8" />
+      <module name="flink-learning-core" target="1.8" />
       <module name="flink-learning-data-sinks" target="1.8" />
       <module name="flink-learning-data-sources" target="1.8" />
       <module name="flink-learning-examples" target="1.8" />
+      <module name="flink-learning-libraries" target="1.8" />
+      <module name="flink-learning-libraries-cep" target="1.8" />
+      <module name="flink-learning-libraries-gelly" target="1.8" />
+      <module name="flink-learning-libraries-machine-learning" target="1.8" />
+      <module name="flink-learning-libraries-state-processor-api" target="1.8" />
       <module name="flink-learning-monitor" target="1.8" />
       <module name="flink-learning-monitor-alert" target="1.8" />
       <module name="flink-learning-monitor-collector" target="1.8" />
       <module name="flink-learning-monitor-common" target="1.8" />
       <module name="flink-learning-monitor-dashboard" target="1.8" />
+      <module name="flink-learning-monitor-log" target="1.8" />
+      <module name="flink-learning-monitor-pvuv" target="1.8" />
       <module name="flink-learning-monitor-storage" target="1.8" />
+      <module name="flink-learning-project" target="1.8" />
+      <module name="flink-learning-project-common" target="1.8" />
+      <module name="flink-learning-project-deduplication" target="1.8" />
       <module name="flink-learning-sql" target="1.8" />
+      <module name="flink-learning-sql-ago" target="1.8" />
+      <module name="flink-learning-sql-blink" target="1.8" />
+      <module name="flink-learning-sql-common" target="1.8" />
       <module name="flink-learning-state" target="1.8" />
       <module name="flink-learning-template" target="1.8" />
       <module name="flink-learning-window" target="1.8" />

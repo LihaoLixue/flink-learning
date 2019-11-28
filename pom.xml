@@ -13,18 +13,20 @@
         <module>flink-learning-connectors</module>
         <module>flink-learning-data-sources</module>
         <module>flink-learning-data-sinks</module>
-        <module>flink-learning-cep</module>
         <module>flink-learning-template</module>
         <module>flink-learning-sql</module>
         <module>flink-learning-examples</module>
         <module>flink-learning-monitor</module>
         <module>flink-learning-window</module>
         <module>flink-learning-state</module>
+        <module>flink-learning-core</module>
+        <module>flink-learning-libraries</module>
+        <module>flink-learning-project</module>
     </modules>
 
     <properties>
         <compiler.version>1.8</compiler.version>
-        <flink.version>1.8.0</flink.version>
+        <flink.version>1.9.0</flink.version>
         <java.version>1.8</java.version>
         <scala.binary.version>2.11</scala.binary.version>
 

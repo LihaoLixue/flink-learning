@@ -50,9 +50,9 @@ public class Main2 {
                 .groupBy(0)
                 .sum(1)
                 .print();
-
         int linesNum = env.getLastJobExecutionResult().getAccumulatorResult("linesNum");
         System.out.println(linesNum);
+//        env.execute();
     }
 
 

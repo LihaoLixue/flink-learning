@@ -92,8 +92,65 @@ public class DingDingGroupMsgUtil {
         try {
             result = HttpUtil.doPostString(url, msg);
         } catch (Exception e) {
-            log.error("send ding ding msg has an error, detail : {}", e.getStackTrace());
+            log.error("send ding ding msg has an error, detail : {}", e);
         }
         return result;
+    }
+
+
+    /**
+     * 同时给多个钉钉机器人发送消息
+     *
+     * @param urls 多个钉钉机器人地址
+     * @param msg 消息内容
+     */
+    public static void sendDingDingMsg(List<String> urls, String msg) {
+        if (urls == null || urls.size() <= 0) {
+            log.warn("you may forget add notify dingding hook");
+            return;
+        }
+        for (String url : urls) {
+            sendDingDingMsg(url, msg);
+        }
+    }
+
+
+    /**
+     * 给一个钉钉机器人同时发送多条消息（注意：钉钉本身的限制 1分钟内一个机器人最多发送 20 条消息）
+     *
+     * @param url 钉钉地址
+     * @param msgs 多条消息
+     */
+    public static void sendDingDingMsg(String url, List<String> msgs) {
+        if (msgs == null || msgs.size() <= 0) {
+            log.warn("you may forget add notify msg");
+            return;
+        }
+        for (String msg: msgs) {
+            sendDingDingMsg(url, msg);
+        }
+    }
+
+
+    /**
+     * 给多个钉钉群发送多条消息
+     *
+     * @param urls 多个钉钉地址
+     * @param msgs 多条消息
+     */
+    public static void sendDingDingMsg(List<String> urls, List<String> msgs) {
+        if (msgs == null || msgs.size() <= 0) {
+            log.warn("you may forget add notify msg");
+            return;
+        }
+        if (urls == null || urls.size() <= 0) {
+            log.warn("you may forget add notify dingding hook");
+            return;
+        }
+        for (String url : urls) {
+            for (String msg: msgs) {
+                sendDingDingMsg(url, msg);
+            }
+        }
     }
 }

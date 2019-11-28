@@ -30,6 +30,7 @@ import java.util.Random;
  * </p>
  * blog：http://www.54tianzhisheng.cn/
  * 微信公众号：zhisheng
+ * 参考：https://blog.csdn.net/yanghua_kobe/article/details/53399118
  */
 public class IterateExample {
 
@@ -44,15 +45,16 @@ public class IterateExample {
         IterativeStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> it = env.addSource(new RandomFibonacciSource())
                 .map(new InputMap())
                 .iterate(5000);
+        it.print();
 
         SplitStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> step = it.map(new Step())
                 .split(new MySelector());
-
+//        step.print();
         it.closeWith(step.select("iterate"));
 
         step.select("output")
-                .map(new OutputMap())
-                .print();
+                .map(new OutputMap());
+//                .print();
 
         env.execute("Streaming Iteration Example");
     }

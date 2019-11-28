@@ -43,6 +43,7 @@ public class CustomSource extends RichSourceFunction<WordEvent> {
         String[] strs = new String[]{"A", "B", "C", "D", "E", "F"};
         int index = (int) (Math.random() * strs.length);
         return "zhisheng" + strs[index];
+//        return strs[index];
     }
 
     private int count() {
