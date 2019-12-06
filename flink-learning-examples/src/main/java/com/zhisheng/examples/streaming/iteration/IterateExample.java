@@ -7,6 +7,7 @@ import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.collector.selector.OutputSelector;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.IterativeStream;
+import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.datastream.SplitStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
@@ -45,14 +46,14 @@ public class IterateExample {
         IterativeStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> it = env.addSource(new RandomFibonacciSource())
                 .map(new InputMap())
                 .iterate(5000);
-        it.print();
 
-        SplitStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> step = it.map(new Step())
-                .split(new MySelector());
-//        step.print();
-        it.closeWith(step.select("iterate"));
+//        SplitStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> step = it.map(new Step())
+//                .split(new MySelector());
+        SingleOutputStreamOperator<Tuple5<Integer, Integer, Integer, Integer, Integer>> map = it.map(new Step());
+        SplitStream<Tuple5<Integer, Integer, Integer, Integer, Integer>> split = map.split(new MySelector());
+        it.closeWith(split.select("iterate"));
 
-        step.select("output")
+        split.select("output")
                 .map(new OutputMap());
 //                .print();
 

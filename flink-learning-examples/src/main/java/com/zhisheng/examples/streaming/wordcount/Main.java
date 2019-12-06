@@ -27,6 +27,7 @@ public class Main {
                             if (split.length() > 0) {
                                 out.collect(new Tuple2<>(split, 1));
                             }
+                            System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$");
                         }
                     }
                 })

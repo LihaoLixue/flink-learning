@@ -2,337 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913541c2-933d-40e7-8941-c6a1a174ec70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/constant/MachineConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/LogEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/OrderLineEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/ShopEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/UserEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/KafkaMetricSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/LogSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/OrderLineSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/OrderSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/ProductSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/ShopSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/schemas/UserSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/CheckPointUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-common/src/main/resources/product.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/ClickhouseSink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/applied/ClickhouseSinkBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/applied/ClickhouseSinkManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/applied/ClickhouseSinkScheduledChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/applied/ClickhouseWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/model/ClickhouseClusterSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/model/ClickhouseRequestBlank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/model/ClickhouseSinkCommonParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/model/ClickhouseSinkConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/util/ConfigUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/java/com/zhisheng/connectors/clickhouse/util/ThreadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/resources/reference.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es2/src/main/java/com/zhisheng/connectors/es2/Sink2ES2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es5/src/main/java/com/zhisheng/connectors/es5/Sink2ES5Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es5/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/java/com/zhisheng/connectors/es6/utils/ESSinkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/java/com/zhisheng/connectors/es6/utils/RetryRequestFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/resources/es_index_template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es7/src/main/java/com/zhisheng/connectors/es7/Sink2ES7Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es7/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/Sink2HiveMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/java/com/zhisheng/connectors/kafka/FlinkKafkaConsumerTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/java/com/zhisheng/connectors/kafka/FlinkKafkaSchemaTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/test/LogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/exception/FlinkRuntimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/factory/DeserializerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/factory/SerializerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/factory/SinkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/factory/SourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/utils/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/utils/CollectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/utils/ExecutorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-core/src/main/java/com/zhisheng/core/utils/TimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zhisheng/data/sinks/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zhisheng/data/sinks/sinks/MySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/broadcast/GetAlarmNotifyData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/broadcast/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/DefaultChainMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/DisableChainMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/DisableChainMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/DisableChainMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/ExecutionPlanMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/SharingGroupMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/chain/StartNewChainMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/checkpoint/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/checkpoint/PvStatExactlyOnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/checkpoint/util/PvStatExactlyOnceKafkaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/config/ConfigurationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/config/ConfigurationMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/config/ParameterToolGetArgsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/config/ParameterToolGetPropertiesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/config/ParameterToolGetSystemMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/ml/IncrementalLearningSkeleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/ml/IncrementalLearningSkeletonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/parallelism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/processFunction/KeyedProcessFunctionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/processFunction/ProcessFunctionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/remote/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/AEMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/DefaultRestartStrategyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/EnableCheckpointMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/FailureRateRestartStrategyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/FixedDelayRestartStrategyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/restartStrategy/NoRestartStrategyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/sideoutput/FilterEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/sideoutput/SideOutputEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/sideoutput/SplitEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/resources/alarm-notify.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/test/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/src/main/java/com/zhisheng/libraries/gelly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-machine-learning/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-machine-learning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-state-processor-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-state-processor-api/src/main/java/com/zhisheng/libraries/stateProcessApi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-state-processor-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-state-processor-api/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-libraries/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/alert/LogEventAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/alert/OutageAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/function/OutageProcessFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/model/AlertEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/model/OutageMetricEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/schema/OutageMetricWaterMark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/resources/LogEventDataExample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/test/java/BuildLogEventDataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/test/java/BuildMachineMetricDataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/test/java/DingDingMsgTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/test/java/LogEventDataExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/src/main/java/com/zhisheng/collector/FlinkJobMetricCollect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/src/main/java/com/zhisheng/monitor/pvuv/HyperLogLogUvExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/src/main/java/com/zhisheng/monitor/pvuv/MapStateUvExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/src/main/java/com/zhisheng/monitor/pvuv/RedisSetUvExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/src/main/java/com/zhisheng/monitor/pvuv/model/UserVisitWebEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-pvuv/src/main/java/com/zhisheng/monitor/pvuv/utils/UvExampleUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-monitor/flink_monitor_measurements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/KeyedStateDeduplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/TuningKeyedStateDeduplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/demo/HashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/demo/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/model/UserVisitWebEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/flink-learning-project-deduplication/src/main/java/com/zhisheng/project/deduplication/utils/DeduplicationExampleUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/sql/WordCountSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/operator/state/UnionListStateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/operator/state/util/UnionListStateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/ClimateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/QueryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/QuerybleStateStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/CustomProcessingTimeTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/kafkaSourceTriggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-window/src/test/java/TestWindowSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_4_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_4_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_4_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_4_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_cep_2_11_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_cassandra_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch6_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch_base_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_filesystem_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_11_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_rabbitmq_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_compatibility_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hbase_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_jdbc_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_32_Final_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_bridge_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_common_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_planner_2_11_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/HiveSink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/KafkaProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/SourceFromHive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/Introduction_to_Apache_Flink_book.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/Learning_Apache_Flink.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/Stream_Processing_with_Apache_Flink.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/Streaming_System.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/flink-learning-cep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/flink-learning-cep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-blink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/cep/CepEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/cep/CepEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/cep/FlinkLoginFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/cep/FlinkLoginFail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/cep/LoginEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/cep/LoginEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/cep/LoginWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/cep/LoginWarning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/java/com/jiutian/cep/cep/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/jiutian/cep/cep/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-cep/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-clickhouse/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/flink-learning-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/flink-learning-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/constant/PropertiesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/constant/PropertiesConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/ExecutionEnvUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/ExecutionEnvUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/KafkaConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/KafkaConfigUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/constant/PropertiesConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/constant/PropertiesConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/ExecutionEnvUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/ExecutionEnvUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/HttpUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/KafkaConfigUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zhisheng/common/utils/KafkaConfigUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/flink-learning-connectors-activemq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-activemq/flink-learning-connectors-activemq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/flink-learning-connectors-akka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/flink-learning-connectors-akka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/src/main/java/com/zhisheng/connectors/akka/AkkaSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-akka/src/main/java/com/zhisheng/connectors/akka/AkkaSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-cassandra/flink-learning-connectors-cassandra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-cassandra/flink-learning-connectors-cassandra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/flink-learning-connectors-es6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/flink-learning-connectors-es6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/java/com/zhisheng/connectors/es6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/java/com/zhisheng/connectors/es6/Sink2ES6Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/java/com/zhisheng/connectors/es6/utils/ElasticSearchSinkUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es6/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-flume/flink-learning-connectors-flume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-flume/flink-learning-connectors-flume.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/flink-learning-connectors-hbase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/flink-learning-connectors-hbase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hdfs/flink-learning-connectors-hdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hdfs/flink-learning-connectors-hdfs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-influxdb/flink-learning-connectors-influxdb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-influxdb/flink-learning-connectors-influxdb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/flink-learning-connectors-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/flink-learning-connectors-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/flink-learning-connectors-kudu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/flink-learning-connectors-kudu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kudu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/flink-learning-connectors-mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/flink-learning-connectors-mysql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/src/main/java/com/zhisheng/connectors/mysql/sinks/SinkToMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-mysql/src/main/java/com/zhisheng/connectors/mysql/sinks/SinkToMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-netty/flink-learning-connectors-netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-netty/flink-learning-connectors-netty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rabbitmq/flink-learning-connectors-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rabbitmq/flink-learning-connectors-rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-redis/flink-learning-connectors-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-redis/flink-learning-connectors-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rocketmq/flink-learning-connectors-rocketmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-rocketmq/flink-learning-connectors-rocketmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/flink-learning-data-sinks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/flink-learning-data-sinks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zhisheng/data/sinks/sinks/SinkToMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zhisheng/data/sinks/sinks/SinkToMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/flink-learning-data-sources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/flink-learning-data-sources.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/flink-learning-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/flink-learning-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/batch/accumulator/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/batch/accumulator/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/File/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/file/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/File/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/File/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/com/zhisheng/libraries/cep/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-cep/src/main/java/com/zhisheng/libraries/cep/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-libraries/flink-learning-libraries-gelly/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/flink-learning-monitor-alert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/flink-learning-monitor-alert.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/utils/DingDingGroupMsgUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-alert/src/main/java/com/zhisheng/alert/utils/DingDingGroupMsgUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/flink-learning-monitor-collector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/flink-learning-monitor-collector.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/flink-learning-monitor-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/flink-learning-monitor-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/flink-learning-monitor-dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/flink-learning-monitor-dashboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-dashboard/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/flink-learning-monitor-storage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/flink-learning-monitor-storage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-storage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-monitor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/model/WC.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/model/WC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/sql/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/sql/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/sql/StreamSQLExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/sql/StreamSQLExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/table/ExplainingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/table/ExplainingTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/table/WordCountTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/java/com/zhisheng/sql/ago/table/WordCountTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-sql/flink-learning-sql-ago/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-es2/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/model/WC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/Sort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/Sort$Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/Sort$OutOfOrderEventSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/Sort$TimestampsAndWatermarks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/StreamSQLExample$Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/sql/StreamSQLExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/table/ExplainingTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zhisheng/table/WordCountTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-sql/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-state/flink-learning-state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-state/flink-learning-state.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-state/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-state/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-template/flink-learning-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-template/flink-learning-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/flink-learning-window.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/flink-learning-window.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/CustomTriggerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/CustomTriggerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paper/paper.md" beforeDir="false" afterPath="$PROJECT_DIR$/paper/paper.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/wordcount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/wordcount/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$InputMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$InputMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$MySelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$MySelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$OutputMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$OutputMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$RandomFibonacciSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$RandomFibonacciSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$Step.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample$Step.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/iteration/IterateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zhisheng/examples/streaming/wordcount/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/flink-learning-monitor/target/" />
@@ -401,19 +88,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/batch/accumulator/Main.java">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/Sink2HiveMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+              <folding>
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1579#1580#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1866#1867#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2070#2071#0" expanded="true" />
+                <element signature="e#2126#2127#0" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2230#2231#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/KafkaProduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/HiveSink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="111" column="97" selection-start-line="111" selection-start-column="97" selection-end-line="111" selection-end-column="97" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#2069#2070#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/SourceFromHive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -452,7 +232,6 @@
         <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/sources/SourceFromMySQL.java" />
         <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/Main2.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/sideoutput/Main.java" />
-        <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/join/WindowJoin.java" />
         <option value="$PROJECT_DIR$/flink-learning-monitor/flink-learning-monitor-collector/README.md" />
         <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zhisheng/sql/Sort.java" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hbase/src/main/java/com/zhisheng/connectors/hbase/HBaseStreamWriteMain.java" />
@@ -474,6 +253,14 @@
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/batch/accumulator/Main2.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/ml/IncrementalLearningSkeleton.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java" />
+        <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/join/WindowJoin.java" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/SourceFromHive.java" />
+        <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/wordcount/Main.java" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Transaction.java" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/HiveSink.java" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/KafkaProduce.java" />
+        <option value="$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Main.java" />
       </list>
     </option>
   </component>
@@ -503,12 +290,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flink-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="flink-learning-connectors-hive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flink-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="flink-learning-connectors-hive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -523,8 +310,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -534,6 +320,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -544,69 +332,58 @@
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="iteration" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors-hive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -616,15 +393,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -656,20 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IterateExample">
-    <configuration name="CustomTriggerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhisheng.window.CustomTriggerMain" />
-      <module name="flink-learning-window" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhisheng.window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="IncrementalLearningSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhisheng.examples.streaming.ml.IncrementalLearningSkeleton" />
       <module name="flink-learning-examples" />
@@ -696,12 +463,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhisheng.examples.batch.accumulator.Main2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhisheng.examples.streaming.wordcount.Main" />
       <module name="flink-learning-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhisheng.examples.batch.accumulator.*" />
+          <option name="PATTERN" value="com.zhisheng.examples.streaming.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -709,12 +476,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kafkaSourceTriggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhisheng.demo.kafkaSourceTriggerTest" />
-      <module name="flink-learning-window" />
+    <configuration name="SourceFromHive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhisheng.connectors.hive.SourceFromHive" />
+      <module name="flink-learning-connectors-hive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhisheng.demo.*" />
+          <option name="PATTERN" value="com.zhisheng.connectors.hive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhisheng.examples.streaming.join.WindowJoin" />
+      <module name="flink-learning-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhisheng.examples.streaming.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -724,11 +504,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SourceFromHive" />
+        <item itemvalue="Application.WindowJoin" />
         <item itemvalue="Application.IterateExample" />
         <item itemvalue="Application.IncrementalLearningSkeleton" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.CustomTriggerMain" />
-        <item itemvalue="Application.kafkaSourceTriggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -758,39 +538,39 @@
       <workItem from="1573822680176" duration="5381000" />
       <workItem from="1573830102293" duration="8820000" />
       <workItem from="1574303045559" duration="19000" />
-      <workItem from="1574664725278" duration="14394000" />
+      <workItem from="1574664725278" duration="31903000" />
+      <workItem from="1575596099087" duration="2261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60361000" />
+    <option name="totallyTimeSpent" value="80131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09585121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3375796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4126394" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31719744" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18726115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31474596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21437423" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32738853" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32611465" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -801,6 +581,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Remote Host" order="10" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -857,172 +638,22 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/wordcount/Main.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/operator/state/util/UnionListStateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0.jar!/org/apache/flink/api/dag/Transformation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
-          <folding>
-            <element signature="e#3548#3549#0" expanded="true" />
-            <element signature="e#3578#3579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0.jar!/org/apache/flink/streaming/api/datastream/SingleOutputStreamOperator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/operator/state/UnionListStateExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/ClimateLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/QuerybleStateStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/queryablestate/QueryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-state/src/main/java/com/zhisheng/state/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/LineSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0.jar!/org/apache/flink/streaming/api/functions/AssignerWithPeriodicWatermarks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0.jar!/org/apache/flink/streaming/api/windowing/triggers/Trigger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/model/WordEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/kafkaSourceTriggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/demo/CustomProcessingTimeTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#3605#3606#0" expanded="true" />
-            <element signature="e#3647#3648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/function/CustomSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/window/CustomTriggerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-window/src/main/java/com/zhisheng/constant/WindowConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-template/src/main/java/com/zhisheng/template/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1250,10 +881,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/util/ThrottledIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/join/WindowJoinSampleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/join/WindowJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_2.snippet">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/iteration/IterateExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="111" column="97" selection-start-line="111" selection-start-column="97" selection-end-line="111" selection-end-column="97" />
+        <state relative-caret-position="495">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-kafka/src/main/java/com/zhisheng/connectors/kafka/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zhisheng/common/utils/KafkaConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/sources/SourceFromMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/ScheduleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zhisheng/data/sources/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/SourceFromHive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zhisheng/examples/streaming/wordcount/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/zhisheng/connectors/hive/Sink2HiveMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/KafkaProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/flink-learning-connectors-hive/src/main/java/com/lihao/hive/HiveSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
