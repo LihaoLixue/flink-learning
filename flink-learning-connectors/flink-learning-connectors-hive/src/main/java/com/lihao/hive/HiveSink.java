@@ -23,7 +23,8 @@ public class HiveSink extends RichSinkFunction<Transaction> {
         super.open(parameters);
         conn = getConnection();
 
-        querySQL = "insert into transaction(transaction_id,card_number,terminal_id,transaction_time,transaction_type,amount) values(? ,?, ?, ?, ?, ?)";
+        querySQL = "insert into transactions(transaction_id,card_number,terminal_id,transaction_time,transaction_type,amount) values(?,?,?,?,?,?)";
+//        querySQL = "insert into transactions values (? ,?, ?, ?, ?, ?)";
         state = conn.prepareStatement(querySQL);
 
     }
@@ -48,19 +49,17 @@ public class HiveSink extends RichSinkFunction<Transaction> {
         state.setString(4,value.getTransaction_time().toString());
         state.setInt(5,value.getTransaction_type());
         state.setDouble(6,value.getAmount());
-
+//        state.execute(querySQL);
         state.executeUpdate();
     }
 
     private static Connection getConnection() {
         Connection conn = null;
         try {
-            String jdbc = "org.apache.hive.jdbc.HiveDriver";
-            String url = "jdbc:hive2://10.3.7.234:10000/userdb";
-            String user = "root";  // 重要！此处必须填入具有HDFS写入权限的用户名，比如hive文件夹的owner
-            String password = "dtc2019234!";
-            Class.forName(jdbc);
-            conn = DriverManager.getConnection(url, user, password);
+            String driverName = "org.apache.hive.jdbc.HiveDriver";
+            String Url = "jdbc:hive2://10.3.7.234:10000/userdb";
+            Class.forName(driverName);
+            conn = DriverManager.getConnection(Url,"root","dtc2019234!");
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
