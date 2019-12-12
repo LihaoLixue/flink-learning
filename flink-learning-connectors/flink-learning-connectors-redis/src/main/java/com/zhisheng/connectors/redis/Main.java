@@ -41,19 +41,31 @@ public class Main {
         ParameterTool parameterTool = ExecutionEnvUtil.PARAMETER_TOOL;
         Properties props = KafkaConfigUtil.buildKafkaProps(parameterTool);
 
+//        SingleOutputStreamOperator<Tuple2<String, String>> product = env.addSource(new FlinkKafkaConsumer011<>(
+//                parameterTool.get(METRICS_TOPIC),   //这个 kafka topic 需要和上面的工具类的 topic 一致
+//                new SimpleStringSchema(),
+//                props))
+//                .map(string -> GsonUtil.fromJson(string, ProductEvent.class)) //反序列化 JSON
+//                .flatMap(new FlatMapFunction<ProductEvent, Tuple2<String, String>>() {
+//                    @Override
+//                    public void flatMap(ProductEvent value, Collector<Tuple2<String, String>> out) throws Exception {
+//                        //收集商品 id 和 price 两个属性
+//                        out.collect(new Tuple2<>(value.getId().toString(), value.getPrice().toString()));
+//                    }
+//                });
         SingleOutputStreamOperator<Tuple2<String, String>> product = env.addSource(new FlinkKafkaConsumer011<>(
                 parameterTool.get(METRICS_TOPIC),   //这个 kafka topic 需要和上面的工具类的 topic 一致
                 new SimpleStringSchema(),
                 props))
-                .map(string -> GsonUtil.fromJson(string, ProductEvent.class)) //反序列化 JSON
-                .flatMap(new FlatMapFunction<ProductEvent, Tuple2<String, String>>() {
+                .flatMap(new FlatMapFunction<String, Tuple2<String, String>>() {
                     @Override
-                    public void flatMap(ProductEvent value, Collector<Tuple2<String, String>> out) throws Exception {
+                    public void flatMap(String value, Collector<Tuple2<String, String>> out) throws Exception {
                         //收集商品 id 和 price 两个属性
-                        out.collect(new Tuple2<>(value.getId().toString(), value.getPrice().toString()));
+                        String[] split = value.split(":");
+                        out.collect(new Tuple2<>(split[0], split[1]));
                     }
                 });
-//        product.print();
+        product.print();
 
         //单个 Redis
         FlinkJedisPoolConfig conf = new FlinkJedisPoolConfig.Builder().setHost(parameterTool.get("redis.host")).build();
